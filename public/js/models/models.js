@@ -43,12 +43,11 @@ window.Product = Backbone.Model.extend({
 
     defaults: {
         _id: null,
-        name: "",
-        type: "",
+        name: "Test2",
+        company: "Test",
         country: "USA",
-        region: "California",
-        year: "",
-        description: "",
+        productLine: "Skin Care",
+        posology: "",
         picture: null
     }
 });
